@@ -1,0 +1,10 @@
+ultralytics
+opencv-python
+streamlit
+fastapi
+uvicorn[standard]
+sqlalchemy
+python-multipart
+requests
+pandas
+imageio-ffmpeg

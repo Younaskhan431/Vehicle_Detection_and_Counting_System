@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Virtual envs
+venv/
+.env/
+.venv/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated runtime files
+outputs/
+uploads/
+*.db
+
+# Local notebooks / temp
+*.tmp
+*.bak
