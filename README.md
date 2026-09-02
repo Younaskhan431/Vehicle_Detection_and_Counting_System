@@ -94,26 +94,29 @@ During testing, the custom model did not perform as well as the pretrained YOLO 
 
 The custom model is still included for comparison and further experimentation.
 
+A training notebook for the fine-tuning workflow is also included in the project root as `vehicle_detection_finetune.ipynb`.
+
 ---
 
 ## 📁 Project Structure
 
 ```text
-├── requirements.txt     # Required Python packages
-├── model.py             # Loads YOLO models and vehicle categories
-├── processing.py        # Tracking, counting, and video processing logic
-├── database.py          # Database connection setup
-├── db_models.py         # Database table definitions
-├── schemas.py            # API data schemas
-├── main.py              # FastAPI backend
-├── app.py               # Main Streamlit dashboard
-├── Count_video.py       # Standalone dashboard without backend
-├── detect_image.py      # Detection on a single image
-├── detect_video.py      # Detection and counting on a video
-├── data/                # Input images/videos
-├── uploads/             # Uploaded videos
-├── outputs/             # Processed videos and reports
-└── vehicle_analytics.db # SQLite database
+├── requirements.txt              # Required Python packages
+├── vehicle_detection_finetune.ipynb  # Fine-tuning notebook for YOLO training
+├── model.py                      # Loads YOLO models and vehicle categories
+├── processing.py                 # Tracking, counting, and video processing logic
+├── database.py                   # Database connection setup
+├── db_models.py                  # Database table definitions
+├── schemas.py                    # API data schemas
+├── main.py                       # FastAPI backend
+├── app.py                        # Main Streamlit dashboard
+├── Count_video.py                # Standalone dashboard without backend
+├── detect_image.py               # Detection on a single image
+├── detect_video.py               # Detection and counting on a video
+├── data/                         # Input images/videos
+├── uploads/                      # Uploaded videos
+├── outputs/                      # Processed videos and reports
+└── vehicle_analytics.db          # SQLite database
 ```
 
 ---
